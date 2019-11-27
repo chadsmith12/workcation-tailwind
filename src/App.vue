@@ -17,15 +17,44 @@
         <div class="absolute inset-y-0 left-0 flex items-center pl-3">
           <svg class="h-6 w-6 fill-current text-gray-500" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M-1-1h582v402H-1z"/><g><path d="M16.32 14.9l5.39 5.4a1 1 0 01-1.42 1.4l-5.38-5.38a8 8 0 111.41-1.41v-.01zM10 16a6 6 0 100-12 6 6 0 000 12z"/></g></svg>
         </div>
-        <input class="bg-gray-900 focus:outline-none focus:bg-white focus:text-gray-900 text-white rounded-lg px-10 py-2" type="search" placeholder="Search by keywords">
+        <input class="bg-gray-900 focus:outline-none focus:bg-white focus:text-gray-900 text-white rounded-lg pl-10 pr-4 py-2" type="search" placeholder="Search by keywords">
       </div>
-      <button>Filters</button>
+      <button class="inline-flex bg-gray-700 hover:bg-gray-600 focus:outline-none focus:shadow-outline rounded-lg shadow pl-3 pr-3">
+        <span class="text-white font-medium">Filters</span>
+      </button>
     </section>
-    <main >
-      <h3>Los Angeles</h3>
-      <p>
+    <main class="px-4 py-6">
+      <h3 class="text-gray-900 text-xl">Los Angeles</h3>
+      <p class="text-gray-600">
         Live like the stars in these luxurious Southern California Estates
       </p>
+      <div class="mt-6">
+        <div>
+          <div>
+            <img class="rounded-lg shadow-md h-64" src="https://images.unsplash.com/photo-1556955112-28cde3817b0a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" alt="house image">
+          </div>
+          <div class="relative px-4 -mt-16">
+            <div class="bg-white rounded-lg px-4 py-4 shadow-lg">
+              <div class="flex">
+                <span class="inline-block px-2 py-1 leading-none bg-teal-200 text-teal-800 rounded-full font-semibold uppercase tracking-wide text-xs">Plus</span>
+                <div class="ml-2 text-xs text-gray-600 font-semibold uppercase tracking-wide">
+                  3 beds &bull; 2 baths
+                </div>
+            </div>
+            <h4 class="mt-1 text-gray-900 font-semibold text-lg">Modern home in city center</h4>
+            <div class="mt-1">
+              <span class="text-gray-900">
+                $1,400
+              </span>
+              <span class="ml-1 text-sm text-gray-600">/wk</span>
+            </div>
+            <div class="text-sm text-gray-600">
+              34 reviews
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
     </main>
 
   </div>
